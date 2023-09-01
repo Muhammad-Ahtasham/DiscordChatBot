@@ -1,18 +1,9 @@
-# APPLICATION ID
-# 1146475132668354610
-
-# PUBLIC KEY
-# 76d5e99ad596f1f04c162c186ddc0f74e2e995cf9511b1ca319adaf43650d212
-
 import discord
 import os
 import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-# 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
-
 token = os.environ['SECRET']
-token = "MTE0NjQ3NTEzMjY2ODM1NDYxMA.Gyrq6P.5kgr_hFYuqfX7txMFTQ8wPyu3EwgZkIM1pJssE"
 
 chat = ""
 
